@@ -1,8 +1,10 @@
 #!/bin/bash
 
-echo $0
+echo "file name : $0"
+echo "Parameter Count : $#"
+echo "All Parameter : $@"
 if [ "$1" = ok ]; then
-  echo "good~!!"
+	echo "good~!!"
 else
-  echo "bad~!!"
+	echo "bad~!!"
 fi
