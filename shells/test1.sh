@@ -9,8 +9,6 @@ read b
 
 if [ $a -ge $b ]; than
 	echo  남자$a
-else 
+else
 	echo 여자$b
 fi
-
-
